@@ -30,7 +30,7 @@
 
         <!-- Cart -->
         <div class="flex items-center space-x-2">
-          <img src="./assets/icon-cart.svg" alt="Cart" class="h-5 w-5" />
+          <img src="./assets/cart-icon.png" alt="Cart" class="h-5 w-5" />
           <span class="text-[#3E3E3E]">Cart ($56)</span>
         </div>
       </div>
@@ -166,7 +166,6 @@
         </li>
       </ul>
     </div>
-
     <!-- Trusted Badge (Bigger & Centered) -->
     <div class="absolute left-1/2 top-[12%] -translate-x-1/2 -translate-y-1/2 z-10">
       <img src="assets/trusted-badge.png" alt="Trusted Seller" class="w-32 md:w-44" />
@@ -181,7 +180,6 @@
     <h2 class="text-[32px] md:text-[40px] font-bold mb-4 leading-snug">
       <span class="text-orange-600 font-bold">Latest</span> <span class="text-[#272727]">Deals</span>
     </h2>
-
     <!-- Section Description -->
     <p class="text-[#6C6C6C] text-[16px] md:text-[18px] leading-relaxed">
       Indulge your senses with the beauty and fragrance of our fresh flower shop.  
@@ -192,15 +190,6 @@
 <!--End Latest Deals-->
 <!--Start Latest Deals Section Fixed Version -->
 <section class="bg-[#f4f7fc] py-14 px-4 md:px-10 lg:px-20">
-  <div class="text-center mb-12 max-w-2xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold text-[#272727]">
-      <span class="text-[#E55473]">Latest</span> Deals
-    </h2>
-    <p class="mt-4 text-[#7f7f7f] text-sm md:text-base">
-      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
-    </p>
-  </div>
-
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
     <!-- Left Two Cards -->
     <div class="flex flex-col gap-6 justify-between">
@@ -234,4 +223,61 @@
   </div>
 </section>
 <!--End Latest Deals Section Fixed Version -->
+<!--Start Newsletter Section -->
+<section class="bg-[url('assets/news-letter-bg.png')] bg-cover bg-center rounded-xl mt-20 mx-4 md:mx-auto md:max-w-8xl py-20 px-6 text-center">
+  <h2 class="text-2xl md:text-4xl font-bold text-white mb-8">Join the colorful Bunch</h2>
+  <form class="flex flex-col md:flex-row justify-center items-center gap-4 max-w-2xl mx-auto">
+    <input 
+      type="email" 
+      placeholder="Write email"
+      class="w-full md:w-2/3 px-5 py-3 rounded-md focus:outline-none text-gray-700"
+    />
+    <button 
+      type="submit" 
+      class="bg-[#F85606] hover:bg-[#e94e00] text-white px-6 py-3 rounded-md transition"
+    >
+      Subscribe
+    </button>
+  </form>
+</section>
+<!--End Newsletter Section -->
+<!--Start Footer Section -->
+<footer class="bg-[#F8F8F8] text-gray-600 mt-20 px-4 md:px-10 py-16">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+    
+    <!-- Logo & Description -->
+    <div class="md:col-span-1">
+      <img src="assets/logo.png" alt="logo" class="h-12 mb-4">
+      <p class="text-sm">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+    </div>
+
+    <!-- Links Column 1 -->
+    <div class="space-y-2">
+      <p class="font-semibold">Home</p>
+      <p class="font-semibold">About Us</p>
+      <p class="font-semibold">Blog</p>
+      <p class="font-semibold">FAQ</p>
+      <p class="font-semibold">Contact Us</p>
+    </div>
+
+    <!-- Links Column 2 -->
+    <div class="space-y-2">
+      <p class="font-semibold">Features</p>
+      <p class="font-semibold">Pricing</p>
+      <p class="font-semibold">Privacy Policy</p>
+      <p class="font-semibold">Terms of Service</p>
+      <p class="font-semibold">Help Center</p>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex md:justify-end items-start gap-4">
+      <img src="assets/icon-linkedin.png" alt="LinkedIn" class="h-6 w-6">
+      <img src="assets/icon-twitter.png" alt="Twitter" class="h-6 w-6">
+      <img src="assets/icon-facebook.png" alt="Facebook" class="h-6 w-6">
+      <img src="assets/icon-youtube.png" alt="YouTube" class="h-6 w-6">
+    </div>
+  </div>
+</footer>
+<!--End Footer Section -->
+
 
